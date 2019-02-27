@@ -8,10 +8,18 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 
 import { MDBSpinningPreloader, MDBBootstrapModulesPro, ToastModule } from 'ng-uikit-pro-standard';
+import { NavigationComponent } from './publicComponents/navigation/navigation.component';
+import { ProjectsComponent } from './publicComponents/projects/projects.component';
+import { FeaturesComponent } from './publicComponents/features/features.component';
+import { FooterComponent } from './publicComponents/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    ProjectsComponent,
+    FeaturesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
